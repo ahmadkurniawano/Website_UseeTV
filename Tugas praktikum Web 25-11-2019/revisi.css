@@ -1,0 +1,256 @@
+ body {
+     width: 100%;
+     height: auto;
+     background-color: #fff;
+
+ }
+
+ /* Navbar */
+ #container-navbar {
+     width: 100%;
+     height: 70px;
+     background-color: #D31820;
+     overflow: hidden;
+     position: fixed;
+     margin-top: -50px;
+     margin-left: -10px;
+ }
+
+ #container-navbar-detail {
+
+     width: 100%;
+     height: 70px;
+     background-color: #D31820;
+     overflow: hidden;
+     position: fixed;
+     margin-top: -10px;
+     margin-left: -10px;
+
+ }
+
+ .nav-brand img {
+     width: 50px;
+     padding-top: 10px;
+     padding-left: 50px;
+ }
+
+ .top-nav {
+     margin-top: -55px;
+     margin-left: 110px;
+
+ }
+
+ .top-nav ul a {
+     text-decoration: none;
+     color: #fff;
+     padding: 20px 5px;
+
+ }
+
+ #active {
+     background-color: #918e8e73;
+     border-radius: 5px;
+     padding: 15px 5px;
+ }
+
+ .top-nav ul a:hover {
+     text-decoration: none;
+     background-color: #918e8e73;
+     border-radius: 5px;
+     padding: 15px 5px;
+ }
+
+ .logo-apps {
+     margin-top: -40px;
+     margin-left: 550px;
+ }
+
+ .logo-apps img {
+     width: 120px;
+     padding-left: 25px;
+ }
+
+ .form-search {
+     margin-top: -35px;
+     float: right;
+     color: #fff;
+     margin-right: 200px;
+ }
+
+ .form-search form input {
+     background-color: rgba(134, 134, 134, 0.342);
+     border: 1px solid rgb(77, 77, 77);
+     width: 150px;
+     height: 20px;
+     color: #fff;
+     border-radius: 2px;
+ }
+
+ button {
+     width: 40px;
+     height: 23px;
+     background-color: rgb(77, 77, 77);
+     color: #fff;
+     border-radius: 2px;
+ }
+
+ button:hover {
+     background-color: #918e8e73;
+ }
+
+ .login a {
+     text-decoration: none;
+     color: #fff;
+     padding: 15px 5px;
+     float: right;
+     margin-top: -45px;
+     margin-right: 35px;
+ }
+
+ .login a:hover {
+     text-decoration: none;
+     background-color: #918e8e73;
+     border-radius: 5px;
+     padding: 15px 5px;
+
+ }
+
+ /* Live Chanel TV Straming */
+
+ #container-live-chanel {
+     width: 80%;
+     margin: 50px auto;
+     height: 330px;
+     padding-top: 100px;
+
+
+ }
+
+ .tv-chanel {
+     margin-bottom: 30px;
+ }
+
+ .tv-chanel a img {
+     width: 180px;
+     text-align: center;
+     margin-left: 12px;
+     margin-right: 5px;
+     transition: transform .2s;
+     /* Animation */
+
+ }
+
+ .tv-chanel a img:hover {
+     transform: scale(1.3);
+ }
+
+ /* Content 1*/
+
+ #container-content-1 {
+     width: 80%;
+     margin: 50px auto;
+     height: 300px;
+
+ }
+
+ .heading {
+     margin-left: 25px;
+ }
+
+ .heading h2 a {
+     color: #cc0000;
+     font-size: 18px;
+ }
+
+ .heading h2 a:hover {
+     color: #cc0000;
+     text-decoration: underline;
+ }
+
+ .container-box {
+     width: 213px;
+     height: 200px;
+     box-sizing: border-box;
+     float: left;
+     margin-right: 18px;
+     margin-left: 21px;
+
+ }
+
+ .title {
+     font-size: 15px;
+     color: black;
+ }
+
+ .title a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ .title a:hover {
+     text-decoration: underline;
+     color: #000;
+ }
+
+ .title-time-category {
+     font-size: 10px;
+     padding-top: 10px;
+ }
+
+ /* Content 2 */
+ #container-content-2 {
+     width: 80%;
+     margin: 50px auto;
+     height: 300px;
+ }
+
+ /* Tugas 3-Desember-2019 */
+ .row {
+     width: 80%;
+     height: 300px;
+     margin: auto;
+ }
+
+ .colom {
+     display: inline-block;
+     float: left;
+ }
+
+ .card {
+     width: 213px;
+     height: 200px;
+     margin-right: 18px;
+     margin-left: 20px;
+     float: left;
+ }
+
+ /* CSS Detal */
+ #container-content {
+     width: 750px;
+     height: 800px;
+     padding: 70px;
+     margin: auto;
+ }
+
+ .card-content img {
+     text-align: center;
+     padding-left: 150px;
+ }
+
+
+
+
+
+
+
+
+ /* Footer */
+ #container-footer {
+     width: 100%;
+     height: 30px;
+     background-color: #D31820;
+     color: #fff;
+     text-align: center;
+     padding-top: 15px;
+     margin-top: 100px;
+ }
